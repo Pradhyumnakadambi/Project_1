@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Marck Script|Stint ultra condensed|Bebas Neue');
-
+@import url('https://fonts.googleapis.com/css?family=Oswald|Marck Script|Stint ultra condensed|Bebas Neue'); /* Importing fonts from Google Fonts */
+                                                       
 body { /* Background of webpage */
     background-image: url("Assets/background9.jpg");
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ img{ /* Fomatting image logo */
     width: 23%;
 
 }
-.Login_box {
+.Login_box { /*Styling the login box */
     background-image: url("Assets/design.jpg");
     width: 235px;
     border: 10px inset rgb(161, 161, 152);
@@ -33,7 +33,7 @@ img{ /* Fomatting image logo */
 }
 
 
-.Login_box label{
+.Login_box label{  /*Styling labels in Login box */
     border-style: none;
     border-radius: 10px;
     outline: none;
@@ -43,7 +43,7 @@ img{ /* Fomatting image logo */
     color: rgb(214, 214, 196);
 }
 
-.Login_box input{
+.Login_box input{ /*Styling entry field in Login box */
     border-style: none;
     border-radius: 10px;
     outline: none;
@@ -54,7 +54,7 @@ img{ /* Fomatting image logo */
     width: 220px;
 }
 
-.Login_box button{
+.Login_box button{ /*Styling log in button */
     border: 3px solid rgb(170, 165, 165);
     border-radius: 30px;
     outline: 20px;
@@ -64,12 +64,12 @@ img{ /* Fomatting image logo */
     width: 130px;
 }
 
-.Login_box button:hover{
+.Login_box button:hover{ /*Changing appearnace of button when hovered on */
     background-color: rgb(54, 48, 48);
     color: rgb(213, 236, 236);
 }
 
-#footer{
+#footer{ /*Footer of page; Login portal */
     border-style: none;
     outline: none;
     text-align: center;
@@ -80,7 +80,7 @@ img{ /* Fomatting image logo */
     left: 183px;
 }
 
-.ref::before{
+.ref::before{ /* Styling a specific word from footer */
     content: "Software";
     font-family: "Marck Script";
 }
