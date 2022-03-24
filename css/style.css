@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Marck Script|Stint ultra condensed|Bebas Neue');
+
+body { /* Background of webpage */
+    background-image: url("background9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgb(202, 207, 212);
+  }
+
+
+
+img{ /* Fomatting image logo */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px;
+    width: 23%;
+
+}
+.Login_box {
+    background-image: url("design.jpg");
+    width: 235px;
+    border: 10px inset rgb(161, 161, 152);
+    text-align: center;
+    padding: 0px 70px 15px 70px;
+    position: absolute;
+    bottom: 70px;
+    left: 95px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: rgb(214, 214, 196);
+}
+
+
+.Login_box label{
+    border-style: none;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    color: rgb(214, 214, 196);
+}
+
+.Login_box input{
+    border-style: none;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    height: 20px;
+    font-size: 18px;
+    font-family: "Sanchez", sans-serif;
+    width: 220px;
+}
+
+.Login_box button{
+    border: 3px solid rgb(170, 165, 165);
+    border-radius: 30px;
+    outline: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family:"Oswald", sans-serif;
+    width: 130px;
+}
+
+.Login_box button:hover{
+    background-color: rgb(54, 48, 48);
+    color: rgb(213, 236, 236);
+}
+
+#footer{
+    border-style: none;
+    outline: none;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    position: absolute;
+    bottom: -8px;
+    left: 183px;
+}
+
+.ref::before{
+    content: "Software";
+    font-family: "Marck Script";
+}
