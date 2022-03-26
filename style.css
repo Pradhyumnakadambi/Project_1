@@ -21,6 +21,8 @@ img{ /* Fomatting image logo */
 }
 .Login_box { /*DesigninglLogin box */
     background-image: url("Assets/design.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
     max-width: 220px;
     width: 100%;
     height: auto;
