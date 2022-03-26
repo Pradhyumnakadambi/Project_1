@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Marck Script|Stint ultra condensed|Bebas Neue');
 
 body { /* Background of webpage */
-    background-image: url("background9.jpg");
+    background-image: url("Assets/background9.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     color:rgb(202, 207, 212);
   }
 
@@ -20,7 +20,7 @@ img{ /* Fomatting image logo */
 
 }
 .Login_box { /*DesigninglLogin box */
-    background-image: url("design.jpg");
+    background-image: url("Assets/design.jpg");
     max-width: 220px;
     width: 100%;
     height: auto;
