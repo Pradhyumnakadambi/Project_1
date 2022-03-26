@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Marck Script|Stint ultra condensed|Bebas Neue'); /* Importing fonts from Google Fonts */
-                                                       
+@import url('https://fonts.googleapis.com/css?family=Oswald|Marck Script|Stint ultra condensed|Bebas Neue');
+
 body { /* Background of webpage */
-    background-image: url("Assets/background9.jpg");
+    background-image: url("background9.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color:rgb(202, 207, 212);
@@ -13,74 +13,83 @@ img{ /* Fomatting image logo */
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -35px;
-    width: 23%;
+    max-width: 320px;
+    margin-top: -3%;
+    width: 100%;
+    height: auto;
 
 }
-.Login_box { /*Styling the login box */
-    background-image: url("Assets/design.jpg");
-    width: 235px;
+.Login_box { /*DesigninglLogin box */
+    background-image: url("design.jpg");
+    max-width: 220px;
+    width: 100%;
+    height: auto;
     border: 10px inset rgb(161, 161, 152);
     text-align: center;
-    padding: 0px 70px 15px 70px;
+    display: block;
+    padding-left: 6%; 
+    padding-right: 6%;
+    padding-bottom: 2%;
     position: absolute;
-    bottom: 70px;
-    left: 95px;
+    bottom: 10%;
+    left: 6%;
     font-weight: bold;
     font-family: "Oswald", sans-serif;
-    font-size: 20px;
+    font-size: 130%;
     color: rgb(214, 214, 196);
 }
 
 
-.Login_box label{  /*Styling labels in Login box */
+.Login_box label{ /* Styling box labels */
     border-style: none;
-    border-radius: 10px;
+    border-radius: 5%;
     outline: none;
     text-align: center;
     font-family: "Oswald", sans-serif;
-    font-size: 22px;
+    font-size: 110%;
     color: rgb(214, 214, 196);
 }
 
-.Login_box input{ /*Styling entry field in Login box */
+.Login_box input{ /* Styling entry box */
     border-style: none;
-    border-radius: 10px;
+    border-radius: 10%;
     outline: none;
     text-align: center;
-    height: 20px;
-    font-size: 18px;
+    height: auto;
+    font-size: 80%;
     font-family: "Sanchez", sans-serif;
-    width: 220px;
+    width: 100%;
+    max-width: 220px;
 }
 
-.Login_box button{ /*Styling log in button */
-    border: 3px solid rgb(170, 165, 165);
-    border-radius: 30px;
-    outline: 20px;
-    font-size: 20px;
+.Login_box button{ /*Styling button*/
+    border: 25% solid rgb(170, 165, 165);
+    border-radius: 15%;
+    outline: 5%;
+    font-size: 90%;
     text-align: center;
     font-family:"Oswald", sans-serif;
-    width: 130px;
+    width: 100%;
+    max-width: 130px;
 }
 
-.Login_box button:hover{ /*Changing appearnace of button when hovered on */
+.Login_box button:hover{ /* Changing appearance of button when hovered over */
     background-color: rgb(54, 48, 48);
     color: rgb(213, 236, 236);
 }
 
-#footer{ /*Footer of page; Login portal */
+#footer{ /* Styling Footor of page */
     border-style: none;
     outline: none;
     text-align: center;
-    font-size: 25px;
+    font-size: 130%;
     font-family: "Bebas Neue", sans-serif;
     position: absolute;
-    bottom: -8px;
-    left: 183px;
+    bottom: .03%;
+    left: 13%;
 }
 
-.ref::before{ /* Styling a specific word from footer */
+.ref::before{
     content: "Software";
     font-family: "Marck Script";
 }
