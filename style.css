@@ -102,7 +102,7 @@ img{ /* Fomatting image logo */
         background-image: url("Assets/design.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
-        max-width: 20px;
+        max-width: 50px;
         width: 100%;
         height: auto;
         border: 10px inset rgb(161, 161, 152);
@@ -132,6 +132,35 @@ img{ /* Fomatting image logo */
 }
 
 @media screen and (max-width: 400px) {
-    #primary { width:100%; }
-    #secondary { width:100%; margin:0; border:none; }
+    .Login_box {
+        background-image: url("Assets/design.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        max-width: 50px;
+        width: 100%;
+        height: auto;
+        border: 2px inset rgb(161, 161, 152);
+        text-align: center;
+        display: block;
+        padding-left: 6%; 
+        padding-right: 6%;
+        padding-bottom: 2%;
+        position: absolute;
+        bottom: 10%;
+        left: 6%;
+        font-weight: bold;
+        font-family: "Oswald", sans-serif;
+        font-size: 130%;
+        color: rgb(214, 214, 196);
+    }  
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 120px;
+        margin-top: -3%;
+        width: 100%;
+        height: auto;
+    }
 }
