@@ -97,12 +97,12 @@ img{ /* Fomatting image logo */
 }
 
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 2000px) {
     #primary { width:67%; }
     #secondary { width:30%; margin-left:3%;}  
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
