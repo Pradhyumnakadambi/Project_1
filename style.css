@@ -98,6 +98,13 @@ img{ /* Fomatting image logo */
 
 
 @media screen and (max-width: 1060px) {
+    body {
+        background-image: url("Assets/background9.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color:rgb(202, 207, 212);
+    }
     .Login_box {
         background-image: url("Assets/design.jpg");
         background-size: 100%;
