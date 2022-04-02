@@ -121,7 +121,7 @@ img{ /* Fomatting image logo */
         padding-right: 6%;
         padding-bottom: 2%;
         position: absolute;
-        bottom: 10%;
+        bottom: 5%;
         left: 6%;
         font-weight: bold;
         font-family: "Oswald", sans-serif;
@@ -141,6 +141,11 @@ img{ /* Fomatting image logo */
 }
 
 @media screen and (max-width: 768px) {
+    body{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
     .Login_box {
         background-image: url("Assets/design.jpg");
         background-size: 100%;
@@ -156,7 +161,6 @@ img{ /* Fomatting image logo */
         padding-bottom: 2%;
         position: absolute;
         bottom: 10%;
-        left: 6%;
         font-weight: bold;
         font-family: "Oswald", sans-serif;
         font-size: 130%;
@@ -172,4 +176,5 @@ img{ /* Fomatting image logo */
         width: 100%;
         height: auto;
     }
+    
 }
