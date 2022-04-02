@@ -125,7 +125,7 @@ img{ /* Fomatting image logo */
         left: 6%;
         font-weight: bold;
         font-family: "Oswald", sans-serif;
-        font-size: 100%;
+        font-size: 70%;
         color: rgb(214, 214, 196);
     } 
     .Login_box label{ /* Styling box labels */
