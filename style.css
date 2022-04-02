@@ -97,6 +97,7 @@ img{ /* Fomatting image logo */
 }
 
 
+/* Responsive nature for mobiles */
 @media screen and (max-width: 1060px) {
     body {
         background-image: url("Assets/background9.jpg");
@@ -125,9 +126,9 @@ img{ /* Fomatting image logo */
         left: 6%;
         font-weight: bold;
         font-family: "Oswald", sans-serif;
-        font-size: 130%;
+        font-size: 100%;
         color: rgb(214, 214, 196);
-    }  
+    } 
 
     img {
         display: block;
@@ -138,7 +139,7 @@ img{ /* Fomatting image logo */
         width: 100%;
         height: auto;
     }
-}
+} 
 
 @media screen and (max-width: 768px) {
     body{
@@ -152,7 +153,7 @@ img{ /* Fomatting image logo */
         background-repeat: no-repeat;
         max-width: 100px;
         width: 100%;
-        height: 45%;;
+        height: 45%;
         border: 2px inset rgb(161, 161, 152);
         text-align: center;
         display: block;
