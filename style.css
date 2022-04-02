@@ -112,7 +112,7 @@ img{ /* Fomatting image logo */
         background-size: 100%;
         background-repeat: no-repeat;
         max-width: 200px;
-        width: 100%;
+        width: auto;
         height: auto;
         border: 10px inset rgb(161, 161, 152);
         text-align: center;
