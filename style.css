@@ -129,6 +129,38 @@ img{ /* Fomatting image logo */
         font-size: 100%;
         color: rgb(214, 214, 196);
     } 
+    .Login_box label{ /* Styling box labels */
+        border-style: none;
+        border-radius: 5%;
+        outline: none;
+        text-align: center;
+        font-family: "Oswald", sans-serif;
+        font-size: 90%;
+        color: rgb(214, 214, 196);
+    }
+    
+    .Login_box input{ /* Styling entry box */
+        border-style: none;
+        border-radius: 10%;
+        outline: none;
+        text-align: center;
+        height: auto;
+        font-size: 50%;
+        font-family: "Sanchez", sans-serif;
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .Login_box button{ /*Styling button*/
+        border: 25% solid rgb(170, 165, 165);
+        border-radius: 15%;
+        outline: 5%;
+        font-size: 60%;
+        text-align: center;
+        font-family:"Oswald", sans-serif;
+        width: 100%;
+        max-width: 110px;
+    }
 
     img {
         display: block;
