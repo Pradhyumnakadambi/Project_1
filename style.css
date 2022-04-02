@@ -111,9 +111,9 @@ img{ /* Fomatting image logo */
         background-image: url("Assets/design.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
-        max-width: 250px;
+        max-width: 200px;
         width: 100%;
-        height: 50%;
+        height: 25%;
         border: 10px inset rgb(161, 161, 152);
         text-align: center;
         display: block;
