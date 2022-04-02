@@ -102,7 +102,7 @@ img{ /* Fomatting image logo */
         background-image: url("Assets/background9.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: 100%;
         color:rgb(202, 207, 212);
     }
     .Login_box {
