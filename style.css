@@ -112,7 +112,7 @@ img{ /* Fomatting image logo */
         background-image: url("Assets/design.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
-        max-width: 170px;
+        max-width: 150px;
         width: 100%;
         height: auto;
         border: 10px inset rgb(161, 161, 152);
@@ -128,38 +128,6 @@ img{ /* Fomatting image logo */
         font-size: 70%;
         color: rgb(214, 214, 196);
     } 
-    .Login_box label{ /* Styling box labels */
-        border-style: none;
-        border-radius: 5%;
-        outline: none;
-        text-align: center;
-        font-family: "Oswald", sans-serif;
-        font-size: 90%;
-        color: rgb(214, 214, 196);
-    }
-    
-    .Login_box input{ /* Styling entry box */
-        border-style: none;
-        border-radius: 10%;
-        outline: none;
-        text-align: center;
-        height: auto;
-        font-size: 70%;
-        font-family: "Sanchez", sans-serif;
-        width: 100%;
-        max-width: 220px;
-    }
-    
-    .Login_box button{ /*Styling button*/
-        border: 25% solid rgb(170, 165, 165);
-        border-radius: 15%;
-        outline: 5%;
-        font-size: 80%;
-        text-align: center;
-        font-family:"Oswald", sans-serif;
-        width: 100%;
-        max-width: 130px;
-    }
 
     img {
         display: block;
@@ -202,7 +170,7 @@ img{ /* Fomatting image logo */
         margin-right: auto;
         max-width: 150px;
         position: absolute; 
-        top: 20%;
+        top: 15%;
         width: 100%;
         height: auto;
     }
