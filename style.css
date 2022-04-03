@@ -173,16 +173,11 @@ img{ /* Fomatting image logo */
 } 
 
 @media screen and (max-width: 768px) {
-    body{
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
     .Login_box {
         background-image: url("Assets/design.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
-        max-width: 100px;
+        max-width: 200px;
         width: 100%;
         height: 45%;
         border: 2px inset rgb(161, 161, 152);
@@ -192,7 +187,7 @@ img{ /* Fomatting image logo */
         padding-right: 6%;
         padding-bottom: 2%;
         position: absolute;
-        bottom: 10%;
+        bottom: 20%;
         font-weight: bold;
         font-family: "Oswald", sans-serif;
         font-size: 130%;
