@@ -138,6 +138,17 @@ img{ /* Fomatting image logo */
         width: 100%;
         height: auto;
     }
+
+    #footer{ /* Styling Footor of page */
+        border-style: none;
+        outline: none;
+        text-align: center;
+        font-size: 130%;
+        font-family: "Bebas Neue", sans-serif;
+        position: absolute;
+        bottom: .002%;
+        left: 10%;
+    }
 } 
 
 @media screen and (max-width: 768px) {
@@ -166,9 +177,9 @@ img{ /* Fomatting image logo */
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 150px;
+        max-width: 160px;
         position: absolute; 
-        top: 5%;
+        top: 8%;
         width: 100%;
         height: auto;
     }
