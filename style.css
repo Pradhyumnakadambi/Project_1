@@ -144,29 +144,29 @@ img{ /* Fomatting image logo */
         outline: none;
         text-align: center;
         height: auto;
-        font-size: 50%;
+        font-size: 70%;
         font-family: "Sanchez", sans-serif;
         width: 100%;
-        max-width: 200px;
+        max-width: 220px;
     }
     
     .Login_box button{ /*Styling button*/
         border: 25% solid rgb(170, 165, 165);
         border-radius: 15%;
         outline: 5%;
-        font-size: 60%;
+        font-size: 80%;
         text-align: center;
         font-family:"Oswald", sans-serif;
         width: 100%;
-        max-width: 110px;
+        max-width: 130px;
     }
 
     img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 120px;
-        margin-top: -3%;
+        max-width: 150px;
+        margin-top: -2%;
         width: 100%;
         height: auto;
     }
