@@ -112,7 +112,7 @@ img{ /* Fomatting image logo */
         background-image: url("Assets/design.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
-        max-width: 150px;
+        max-width: 140px;
         width: 100%;
         height: auto;
         border: 10px inset rgb(161, 161, 152);
@@ -133,7 +133,7 @@ img{ /* Fomatting image logo */
         display: block;
         margin-left: auto;
         margin-right: auto;
-        max-width: 150px;
+        max-width: 180px;
         margin-top: -2%;
         width: 100%;
         height: auto;
@@ -155,13 +155,11 @@ img{ /* Fomatting image logo */
         padding-right: 6%;
         padding-bottom: 2%;
         position: absolute;
-        bottom: 20%;
+        bottom: 10%;
         font-weight: bold;
         font-family: "Oswald", sans-serif;
         font-size: 130%;
         color: rgb(214, 214, 196);
-        margin-left: auto;
-        margin-right: auto;
     }  
 
     img {
@@ -170,7 +168,7 @@ img{ /* Fomatting image logo */
         margin-right: auto;
         max-width: 150px;
         position: absolute; 
-        top: 15%;
+        top: 8%;
         width: 100%;
         height: auto;
     }
