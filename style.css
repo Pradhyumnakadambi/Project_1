@@ -19,7 +19,7 @@ img{ /* Fomatting image logo */
     height: auto;
 
 }
-.Login_box { /*DesigninglLogin box */
+.Login_box { /*Designing lLogin box */
     background-image: url("Assets/design.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ img{ /* Fomatting image logo */
 
 
 /* Responsive nature for mobiles */
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1060px) { /* Landscape view */
     body {
         background-image: url("Assets/background9.jpg");
         background-repeat: no-repeat;
@@ -150,7 +150,7 @@ img{ /* Fomatting image logo */
     }
 } 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) { /* Portrait view */
     .Login_box {
         background-image: url("Assets/design.jpg");
         background-size: 100%;
